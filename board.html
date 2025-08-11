@@ -1,0 +1,386 @@
+<style>
+    .bsb-templates .card {
+        border: none;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        margin-bottom: 30px;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .bsb-templates .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    }
+    
+    .bsb-templates .card-horizontal {
+        display: flex;
+        align-items: stretch;
+        min-height: 280px;
+        flex-direction: row;
+    }
+    
+    /* Mobile responsive styles */
+    @media (max-width: 768px) {
+        .bsb-templates .card-horizontal {
+            flex-direction: column;
+            min-height: auto;
+            text-align: center;
+        }
+        
+        .bsb-templates .img-rounded-wrapper {
+            align-self: center;
+            padding: 20px !important;
+        }
+        
+        .bsb-templates .card-body {
+            padding: 20px !important;
+        }
+        
+        .intro-text {
+            padding: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .intro-text p {
+            font-size: 16px !important;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        /* Removed width/height override to preserve image ratio */
+        .bsb-templates .card-title {
+            font-size: 1.2rem !important;
+        }
+        
+        .bsb-templates .card-body p {
+            font-size: 14px !important;
+        }
+        
+        .intro-text {
+            padding: 12px;
+        }
+        
+        .intro-text p span {
+            font-size: 14px !important;
+        }
+    }
+    
+    .bsb-templates .card-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+    
+    .bsb-templates .card-body {
+        flex: 1;
+        padding: 25px !important;
+    }
+    
+    .bsb-templates .card-body p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #555;
+        margin-bottom: 15px;
+    }
+    
+    .bsb-templates .img-rounded-wrapper {
+        flex-shrink: 0;
+        padding: 25px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bsb-templates .img-rounded-wrapper img {
+        width: 280px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        max-width: 100%;
+    }
+    
+    .intro-text {
+        font-size: 18px;
+        line-height: 1.7;
+        color: #444;
+        margin-bottom: 40px;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+    }
+    
+    .container.user-wrapper {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+</style>
+
+<div id="i4c-draggable-container" style="position: fixed; z-index: 1499; width: 0px; height: 0px;">
+    <div data-reactroot="" class="resolved" style="all: initial;"></div>
+</div>
+<div class="intro-text">
+    <p>
+        <span style="font-size: 18px;">
+            We are here to provide you and your family with the best youth soccer experience possible! We are proud to bring you a group of highly accomplished administrators. Read the bios below to learn more about your board from our community.
+        </span>
+    </p>
+    <p>
+        <span style="font-size: 18px;">
+            We currently have three board vacancies. Contact 
+            <a href="mailto:president1@ocsoccerclub.org?subject=president1%40ocsoccerclub.org" id="president1@ocsoccerclub.org" title="president1@ocsoccerclub.org">president1@ocsoccerclub.org</a> 
+            to become part of our&nbsp;board!
+        </span>
+    </p>
+</div>
+
+<div class="bsb-templates">
+    <div class="container user-wrapper">
+        <!-- Existing non-vacant positions -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/jon%20profile%20pic%202.jpg" alt="Jon Benjamin">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Jon Benjamin <br>OCSC Board President &amp; Field Coordinator</span>
+                            </h5>
+                            <p>Email: <a href="mailto:president1@ocsoccerclub.org">president1@ocsoccerclub.org</a><br>Email: <a href="mailto:jb5150@ccgmail.net">jb5150@ccgmail.net</a></p>
+                            <p>
+                                I have been involved with Oregon City soccer club for the past 24 years. I enjoy coaching, teaching and mentor kids into young productive adults in our community. Youth soccer is about kids having fun, making new friends and learning to work together as a team. What we all must remember is that "It's for the KIDS".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/pxl_20220310_164245416.portrait.jpg" alt="Kelly Rhodes">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Kelly Rhodes<br>Vice President</span>
+                            </h5>
+                            <p>Email: <a href="mailto:vicepresident@ocsoccerclub.org">vicepresident@ocsoccerclub.org</a><br><br>
+                            What makes all the rainy practices, early Saturday games, and occasional referee disagreements (always respectful, of course!) worth it? It's seeing the pure joy on kids' faces when they connect with the ball just right, or when teammates celebrate together after working hard. Soccer taught me about teamwork and perseverance as a kid, and now I get to watch those same valuable lessons take root in a new generation – starting with my own soccer-loving daughters.<br />Between board duties, coaching responsibilities, and being my girls' biggest fan on the sidelines, soccer isn't just a sport in our household – it's practically a family member. And thankfully, it's one that doesn't leave dirty dishes in the sink!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/pete%20profile%20pic.jpg" alt="Pete Fogle">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Pete Fogle<br>Treasurer</span>
+                            </h5>
+                            <p>Email: <a href="mailto:treasurer1@ocsoccerclub.org">treasurer1@ocsoccerclub.org</a></p>
+                            <p>
+                                I have been coaching Oregon City Youth Soccer since 2011. That was the year my daughters team needed a coach and I volunteered. I have continued to coach many teams since then and have loved every minute of it. Many of my teams have had the honor of volunteering to help the Love One Foundation distribute food and hygiene products to people in our community that really need it. I am also on the board for a non profit called Rods and Reels in Need.. we collect donated fishing equipment, and get it into the hands of underprivileged kids, veterans, or pretty much anyone that can't afford the equipment needed to get out on the water and fish. I have 3 daughters Haley, Jordyn, and Megan. My youngest Megan plays on the Oregon City High girls varsity basketball team.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/rachel_bio.jpg" alt="Rachel Henney">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Rachel Henney<br>Secretary</span>
+                            </h5>
+                            <p>Email: <a href="mailto:secretary@ocsoccerclub.org">secretary@ocsoccerclub.org</a></p>
+                            <p>
+                                I'm a proud mom of two and our family of 4 has lived in Oregon City for 15 years. After a few seasons of watching my oldest daughter's growth in confidence and skills through Oregon City Soccer Club, I wanted to be even more involved. I joined the board in 2025 as Secretary to give back to a program that has meant so much to our family. I believe clubs like this are vital to building strong communities and creating positive experiences for our youth. In addition to this role, I also serve on the boards of other local nonprofits, including Soulflags and the Downtown Oregon City Association.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/jeff%20profile%20pic.jpg" alt="Jeff Rine">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Jeff Rine<br>Referee Coordinator</span>
+                            </h5>
+                            <p>Email: <a href="mailto:referee@ocsoccerclub.org">referee@ocsoccerclub.org</a></p>
+                            <p>
+                                I have been active with the club since starting as a coach for my child's team in 2017. In 2018, I heard that the club was short of referees for our games. So, in 2018 i became a US Soccer Federation licensed referee which launched my referee journey. It only takes a few hours of online review and 4 hours of in-person instruction to get licensed! After that I helped the club by taking over the vacant Referee Coordinator position. I am also currently the interim Club Treasurer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/nate%20profile%20pic%202.jpg" alt="Nathan Aronson">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Nathan Aronson<br>Recreational Manager</span>
+                            </h5>
+                            <p>Email: <a href="mailto:recmanager@ocsoccerclub.org">recmanager@ocsoccerclub.org</a></p>
+                            <p>
+                                My name is Nathan Aronson, most people call me Nate or Coach Nate. I was born and raised in Oregon City. I have played soccer since I could walk and I was lucky enough to grow up playing for Oregon City Soccer Club. One thing I am passionate about is giving back to my community by volunteering as a coach for my daughter's team and as the head JV coach for Oregon City High School. Along with coaching, I currently hold two positions on the Oregon City Soccer Club Executive Board. I am the Equipment Manager and Recreational Manager. When I am not volunteering or at my full-time job in the Road Department for Clackamas County, I spend time with my daughter, friends and family. I really enjoy being outdoors. I love to camp, and I have fished and hiked many of the rural areas in Clackamas County. I plan to continue with my passions and hope to make a difference in children's lives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/jeana%20profile%20pic.jpg" alt="Jeana Monfils">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Jeana Monfils<br>Registrar</span>
+                            </h5>
+                            <p>Email: <a href="mailto:registrar@ocsoccerclub.org">registrar@ocsoccerclub.org</a></p>
+                            <p>
+                                My name is Jeana Monfils and I am the current Registrar for OCSC. I have been with the Oregon City Soccer Club since 2017 and started as a Team Manager when my daughter played with OCSC. For several years I was in the Secretary Executive Board position, and now I am enjoying my current duties as Registrar. I am here to help answer any questions and hope to make the registration process easy for everyone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/brenda_bio.jpg" alt="Brenda Forrester">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Brenda Forrester<br>Equipment Manager</span>
+                            </h5>
+                            <p>Email: <a href="mailto:equipment@ocsoccerclub.org">equipment@ocsoccerclub.org</a></p>
+                            <p>
+                                As an Oregon City resident, parent, and coach I'm excited to join the Board as the Equipment Manager. I'm no stranger to sports and the time commitments that come with it as I've participated in many sports from youth through High School. My children play sports for Oregon City as well and I've been coaching now for 4 seasons. My interest in joining the Board was simply to help raise up this important club for our community and to make things easier and more efficient for all involved. I'm excited for this opportunity and for what is to come for our soccer families!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Thomas Pham's section -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="https://dt5602vnjxv0c.cloudfront.net/portals/27181/images/thomas_bio.jpg" alt="Thomas Pham">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Thomas Pham<br>Website Administrator</span>
+                            </h5>
+                            <p>Email: <a href="mailto:website@ocsoccerclub.org">website@ocsoccerclub.org</a></p>
+                            <p>
+                                Soccer has been a huge part of my life for as long as I can remember. My journey with OCSC started when I volunteered as a coach for my daughter's team, which was such an awesome experience. But it wasn't until I joined the board that I really began to see just how much OCSC gives back to the community. It's incredible! Now, my volunteering isn't just about my own kids—it's about all the kids out there who might not get the chance to play organized sports if it weren't for amazing organizations like OCSC.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Vacant positions moved to the bottom -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="/Portals/_default/Templates/images/user.svg" style="background-color: #f8f9fa;">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Vacant<br>Little Pioneers Coordinator</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="/Portals/_default/Templates/images/user.svg" style="background-color: #f8f9fa;">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Vacant<br>Community Outreach</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-horizontal">
+                        <div class="img-rounded-wrapper">
+                            <img src="/Portals/_default/Templates/images/user.svg" style="background-color: #f8f9fa;">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <span>Vacant<br>Field Ambassador</span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
